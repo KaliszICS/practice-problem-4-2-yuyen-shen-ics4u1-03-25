@@ -23,22 +23,50 @@
         this.weight = weight;
     }
 
+    /**
+     * 
+     * @return the name of the dog
+     */
     public String getName() {
         return this.name;
     }
+
+    /**
+     * 
+     * @return the breed of the dog
+     */
     public String getBreed() {
         return this.breed;
     }
+
+    /**
+     * 
+     * @return the weight of the dog
+     */
     public int getWeight() {
         return this.weight;
     }
 
+    /**
+     * 
+     * @param newName the new name of the dog that will replace its original name
+     */
     public void setName(String newName) {
         this.name = newName;
     }
+
+    /**
+     * 
+     * @param newBreed the new breed of the dog that will replace the original breed
+     */
     public void setBreed(String newBreed) {
         this.breed = newBreed;
     }
+
+    /**
+     * 
+     * @param newWeight the new weight of the dog that will replace the original weight
+     */
     public void setWeight(int newWeight) {
         this.weight = newWeight;
     }
