@@ -1,9 +1,22 @@
+/**
+    * car information
+    * @author Yuyen
+    */
+
 class Car {
 
     String make;
     String model;
     int year;
     double price;
+
+    /**
+     * a set of information of the car
+     * @param make the company of the car
+     * @param model the model of the car
+     * @param year the year of the car made
+     * @param price the price of the car sold
+     */
 
     public Car(String make, String model, int year, double price) {
         this.make = make;

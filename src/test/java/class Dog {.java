@@ -1,8 +1,21 @@
-class Dog {
+/**
+    * dog information
+    * @author Yuyen
+    */
+    
+    
+    class Dog {
 
     String name;
     String breed;
     int weight;
+
+    /**
+     * a set of information of a dog
+     * @param name the name of the dog
+     * @param breed the breed of the dog 
+     * @param weight the weight of the dog
+     */
 
     public Dog(String name, String breed, int weight) {
         this.name = name;
