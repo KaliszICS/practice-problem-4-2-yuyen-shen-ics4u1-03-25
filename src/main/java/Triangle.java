@@ -37,7 +37,9 @@ class Triangle { //notice that it starts with a capital letter
 	//setters
 
 	public void setSide1(double newSide1) {
-		this.side1 = newSide1;
+		if (newSide1 > 0) {
+			this.side1 = newSide1;b
+		}
 	}
 
 	//This is not a getter, so don't write get

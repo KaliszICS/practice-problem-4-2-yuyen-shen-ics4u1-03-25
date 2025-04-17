@@ -11,7 +11,7 @@ class Example {
 	String var2;
 
 	/**
-	 * Explanation
+	 * Write your explanation here
 	 * @param var1 explanation of what the variable is
 	 * @param var2 a String and then the explanation
 	 */
