@@ -25,28 +25,62 @@ class Car {
         this.price = price;
     }
 
+    /**
+     * @return the company of the car
+     */
     public String getMake() {
         return this.make;
     }
+
+    /**
+     * @return the model of the car
+     */
     public String getModel() {
         return this.model;
     }
+
+    /**
+     * @return the year of the car
+     */
     public int getYear() {
         return this.year;
     }
+
+    /**
+     * @return the price of the car
+     */
     public double getPrice() {
         return this.price;
     }
 
+    /**
+     * 
+     * @param newMake the new company that will replace the original company
+     */
     public void setMake(String newMake) {
         this.make = newMake;
     }
+
+    /**
+     * 
+     * @param newModel the new model that will replace the original model
+     */
     public void setModel(String newModel) {
         this.model = newModel;
     }
+
+    /**
+     * 
+     * @param newYear the new year that will replace the original year
+     */
     public void setYear(int newYear) {
         this.year = newYear;
     }
+
+    /**
+     * 
+     * @param newPrice the new price that will replace the original price
+     */
     public void setPrice(double newPrice) {
         this.price = newPrice;
     }
